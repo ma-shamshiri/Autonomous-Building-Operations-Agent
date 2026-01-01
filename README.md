@@ -10,17 +10,17 @@ This project demonstrates how applied AI can be embedded into real-world operati
 <details>
 <summary>Click to expand</summary>
 
-- [Overview](#overview)
-- [Key Capabilities](#key-capabilities)
-- [System Architecture](#system-architecture)
-- [Technology Stack](#technology-stack)
-- [Design Principles](#design-principles)
-- [Example Workflow](#example-workflow)
-- [Evaluation & Validation](#evaluation--validation)
-- [Local Development](#local-development)
-- [Extensibility](#extensibility)
-- [Why This Project Matters](#why-this-project-matters)
-- [Contact](#contact)
+- [Overview](#toc-overview)
+- [Key Capabilities](#toc-key-capabilities)
+- [System Architecture](#toc-system-architecture)
+- [Technology Stack](#toc-technology-stack)
+- [Design Principles](#toc-design-principles)
+- [Example Workflow](#toc-example-workflow)
+- [Evaluation & Validation](#toc-evaluation-validation)
+- [Local Development](#toc-local-development)
+- [Extensibility](#toc-extensibility)
+- [Why This Project Matters](#toc-why-this-project-matters)
+- [Contact](#toc-contact)
 
 </details>
 
