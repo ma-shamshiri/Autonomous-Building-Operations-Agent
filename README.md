@@ -7,7 +7,7 @@ This project demonstrates how applied AI can be embedded into real-world operati
 ---
 
 ## 📚 Table of Contents
-<details>
+<details open>
 <summary>Click to expand</summary>
 
 - [Overview](#toc-overview)
@@ -26,6 +26,7 @@ This project demonstrates how applied AI can be embedded into real-world operati
 
 ---
 
+<a id="toc-overview"></a>
 ## 🧠 Overview
 
 Modern buildings generate large volumes of sensor data, but acting on this data in a timely and reliable way remains a challenge. This project implements an autonomous agent that continuously monitors sensor streams, identifies energy anomalies, and takes corrective actions without human intervention.
@@ -34,6 +35,7 @@ The system is designed as a modular, production-oriented AI service that integra
 
 ---
 
+<a id="toc-key-capabilities"></a>
 ## ⚙️ Key Capabilities
 
 - 📡 Real-time ingestion of building sensor data (energy usage, temperature, etc.)
@@ -45,6 +47,7 @@ The system is designed as a modular, production-oriented AI service that integra
 
 ---
 
+<a id="toc-system-architecture"></a>
 ## 🏗️ System Architecture
 
 The system is structured as loosely coupled components to ensure scalability and maintainability:
@@ -68,6 +71,7 @@ The system is structured as loosely coupled components to ensure scalability and
 
 ---
 
+<a id="toc-technology-stack"></a>
 ## 🧰 Technology Stack
 
 <p align="left">
@@ -88,6 +92,7 @@ The stack was intentionally chosen to reflect production-ready technologies comm
 
 ---
 
+<a id="toc-design-principles"></a>
 ## 🧩 Design Principles
 
 - **Autonomy:** Decisions are triggered without manual intervention  
@@ -98,6 +103,7 @@ The stack was intentionally chosen to reflect production-ready technologies comm
 
 ---
 
+<a id="toc-example-workflow"></a>
 ## 🔄 Example Workflow
 
 1. A sensor event with high energy usage is ingested.
@@ -110,6 +116,7 @@ The stack was intentionally chosen to reflect production-ready technologies comm
 
 ---
 
+<a id="toc-evaluation-validation"></a>
 ## 📊 Evaluation & Validation
 
 The system can be evaluated by replaying historical sensor data and analyzing:
@@ -122,6 +129,7 @@ This approach prioritizes **decision reliability and system behavior**, not just
 
 ---
 
+<a id="toc-local-development"></a>
 ## 🧪 Local Development
 
 The project runs locally using Docker:
@@ -132,6 +140,35 @@ docker-compose up --build
 
 ---
 
+<a id="toc-extensibility"></a>
+## 🔮 Extensibility
+
+The system is intentionally designed to support future enhancements without requiring major architectural changes. Each component can be extended or replaced independently as operational needs evolve.
+
+Potential extensions include:
+
+- Integrating statistical or machine learning–based anomaly detection models
+- Adapting thresholds dynamically using historical usage patterns
+- Supporting additional sensor types and operational metrics
+- Integrating with alerting, scheduling, or visualization platforms
+- Adding monitoring and feedback loops to continuously improve decision quality
+
+This extensible design allows the system to evolve from rule-based automation into more advanced AI-driven optimization workflows.
+
+---
+
+<a id="toc-why-this-project-matters"></a>
+## 🌍 Why This Project Matters
+
+This project demonstrates applied AI engineering beyond standalone model development. It focuses on building autonomous, reliable systems that operate in noisy, real-world environments and deliver tangible operational value through automation.
+
+Rather than emphasizing offline model metrics, the system prioritizes decision reliability, integration with existing infrastructure, and end-to-end ownership—from data ingestion to action execution. These considerations reflect the realities of deploying AI systems in production settings such as energy management, facilities operations, and industrial monitoring.
+
+The project highlights how AI can be used as a practical decision-making component within larger software systems, not just as an isolated predictive model.
+
+---
+
+<a id="toc-contact"></a>
 ## 📬 Contact
 
 Feel free to reach out or explore more of my work:
@@ -139,4 +176,3 @@ Feel free to reach out or explore more of my work:
 - 📧 **Email:** [ma.shamshiri@gmail.com](mailto:ma.shamshiri@gmail.com)
 - 💼 **LinkedIn:** [linkedin.com/in/ma-shamshiri](https://www.linkedin.com/in/ma-shamshiri)
 - 🧑‍💻 **GitHub:** [github.com/ma-shamshiri](https://github.com/ma-shamshiri)
-
